@@ -13,6 +13,7 @@ main() async {
   await init();
   runApp(const App());
   configLoading();
+  
 }
 
 Future<void> init() async {
